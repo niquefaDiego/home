@@ -1,0 +1,5 @@
+return {
+    {
+        "dlyongemallo/diffview.nvim"
+    }
+}

@@ -1,4 +1,19 @@
 *
 
-!/.tmux.conf
 !.gitignore
+
+# Tmux config
+!/.tmux.conf
+
+# Noevim config
+!/.config/
+!/.config/nvim/
+!/.config/nvim/*.lua
+!/.config/nvim/after/
+!/.config/nvim/after/ftplugin/
+!/.config/nvim/after/ftplugin/*.lua
+!/.config/nvim/lua/
+!/.config/nvim/lua/config/
+!/.config/nvim/lua/config/*.lua
+!/.config/nvim/lua/plugins/
+!/.config/nvim/lua/plugins/*.lua
