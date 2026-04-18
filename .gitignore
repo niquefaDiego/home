@@ -1,6 +1,7 @@
 *
 
-!.gitignore
+!/README
+!/.gitignore
 
 # Tmux config
 !/.tmux.conf
