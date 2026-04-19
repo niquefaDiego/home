@@ -5,6 +5,7 @@
 
 # Tmux config
 !/.tmux.conf
+!/.bashrc
 
 # Noevim config
 !/.config/

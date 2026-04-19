@@ -1,5 +1,6 @@
 # Home
 
 My linux config files for:
-- Tmux
+- Bash
 - Neovim
+- Tmux
