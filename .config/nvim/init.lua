@@ -156,7 +156,7 @@ end, { silent = true })
 vim.keymap.set("n", "<leader>m", ":messages<CR>", { desc = "Display neovim messages" })
 
 -- Copy relative path
-vim.keymap.set('n', '<leader>c', function()
+vim.keymap.set('n', '<leader>yp', function()
   vim.fn.setreg('+', vim.fn.expand('%'))
   print("Copied relative path: " .. vim.fn.expand('%'))
 end, { desc = 'Copy relative file path' })
