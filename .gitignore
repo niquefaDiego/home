@@ -3,6 +3,9 @@
 !/README
 !/.gitignore
 
+!/.scripts/
+!/.scripts/*
+
 # Tmux config
 !/.tmux.conf
 !/.bashrc
