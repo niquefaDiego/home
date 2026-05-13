@@ -40,6 +40,10 @@ function Install-Ripgrep {
     Ensure-Installed "rg" { scoop install ripgrep }
 }
 
+function Install-Bat {
+    Ensure-Installed "bat" { scoop install bat }
+}
+
 function Install-Tree-Sitter-CLI {
     Ensure-Installed -Executable "tree-sitter" -InstallScript { scoop install tree-sitter }
 }
@@ -59,5 +63,6 @@ function Sync-Neovim-Config {
 
 Install-Scoop
 Install-Ripgrep
+Install-Bat
 Install-Tree-Sitter-CLI
 Sync-Neovim-Config
