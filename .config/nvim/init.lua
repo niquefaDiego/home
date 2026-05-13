@@ -167,5 +167,4 @@ vim.api.nvim_create_autocmd("User", {
   callback = function() if _G.MiniFiles then _G.MiniFiles.close() end end
 })
 
-require('shortcuts')
 require('scroll')

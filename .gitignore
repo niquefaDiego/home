@@ -18,6 +18,7 @@
 !/.config/nvim/after/ftplugin/
 !/.config/nvim/after/ftplugin/*.lua
 !/.config/nvim/lua/
+!/.config/nvim/lua/*.lua
 !/.config/nvim/lua/config/
 !/.config/nvim/lua/config/*.lua
 !/.config/nvim/lua/plugins/
